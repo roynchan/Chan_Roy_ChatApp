@@ -1,6 +1,10 @@
-# Chat Example with Node, Express, Socket.io and Data
+# Roy Chan's ChatApp with Node, Express, Socket.io and Data
 
 A (very) simple Express build with an object that handles multiple connections to a chat server, handles messaging and custom user events.
+
+## Description
+
+A Live ChatApp built by Node, Express and Vue with socket.io 
 
 ## Installation
 
@@ -12,14 +16,22 @@ Clone, NPM install and run npm start
 
 Connect to the chat service via localhost and chat away!
 
-## Contributing
+### program
 
-1. Fork it!
-2. Create your feature branch: `git checkout -b my-new-feature`
-3. Commit your changes: `git commit -am 'Add some feature'`
-4. Push to the branch: `git push origin my-new-feature`
-5. Submit a pull request :D
+* Javascript
+* html
+* css
+* vue
+* sass
+* Node 
+* Express 
+* socket.io
+
+# Authors
+
+* Chan Chun Yip Roy
 
 ## License
 
-TODO: MIT
+This project is licensed under Roy Chan
+## Acknowledgments
