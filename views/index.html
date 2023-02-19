@@ -25,17 +25,14 @@
             </form>
         </section>
             
-
         <section class="messages">
             <h2>Receive messages here:</h2>
             <ul id="messages">
                 <!-- render a new message component for every message -->
                 <newmsg v-for="message in messages" :message="message"></newmsg>
+                <newinsert v-for="insert in insertings" :insert="insert"></newinsert>
             </ul>
         </section>
-
-
-
 
 
     </main>
