@@ -6,22 +6,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
     <link rel="stylesheet" href="css/main.css">    
-    <title>Chat</title>
+    <title>Roy Chan Chat App</title>
 </head>
 <body>
     <h1 id="main-headline">Chat App</h1>
 
     <main id="app">
-        <section>
+
+        <section class="input">
+            <div>
             <h2>Input messages here:</h2>
             <input id="nickname" v-model="nickname" type="text" placeholder="Nickname?">
-            
+            </div>
             <form>
-                <label for="message">Something to say?</label>
+                <label for="message">Type Something</label>
                 <textarea @focus="catchTextFocus" v-model="message" id="textarea" class="message" autocomplete="off"></textarea>
-                <input @click.prevent="dispatchMessage" type="submit" value="Send">
+                <input class="button" @click.prevent="dispatchMessage" type="submit" value="Send">
             </form>
         </section>
+            
 
         <section class="messages">
             <h2>Receive messages here:</h2>
@@ -30,6 +33,11 @@
                 <newmsg v-for="message in messages" :message="message"></newmsg>
             </ul>
         </section>
+
+
+
+
+
     </main>
 
     <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>

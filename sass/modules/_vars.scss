@@ -1,2 +1,19 @@
-$user-messages: blue;
-$other-messages: green;
+.chat-messages {
+    width: 45%;
+    border-radius: 1em;
+    padding: 0.5em 1em;
+    color: #6E6A6F;
+    background-color: #BFAFA6;
+    float: left;
+    clear: both;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.other-messages {
+    color: #6E6A6F;
+    background-color: #D4D2D5;
+    float: right;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
